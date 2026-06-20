@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Hi 👋, I'm Kana Hakshay Reddy</h1>
+<h3 align="center">Incoming Software Engineer @ PayPal | Distributed Systems & AI Enthusiast</h3>
 
-## Getting Started
+<p align="center">
+  <a href="https://linkedin.com/in/hakshayreddy" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:kanahakshayreddy@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://leetcode.com/u/Hakshay_Reddy_K_eight/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 👨‍💻 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I architect scalable microservices, build real-time distributed systems, and design AI/ML solutions. I am passionate about solving complex problems and building robust software that makes an impact.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎓 **Education:** B.Tech in CSE (AI & ML), Vellore Institute of Technology (CGPA: 9.82/10.00)
+- 💼 **Professional:** Incoming Software Engineer at **PayPal** (Joining July 2026)
+- 🌱 **Focus Areas:** Advanced Event-Driven Architectures, Cloud Infrastructure, and Machine Learning.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Languages:** Java, Python, C, C++, SQL
+- **Backend:** Spring Boot, REST APIs, Microservices, WebSockets, Kafka, Redis
+- **Cloud & DevOps:** AWS, Docker, Kubernetes, CI/CD, GitHub Actions
+- **AI/ML:** PyTorch, Vision Transformers, LLMs, RAG, Federated Learning
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🚀 Featured Projects
 
-## Deploy on Vercel
+#### 1. [PingMe: Scalable Real-Time Communication Platform](https://github.com/HakshayReddyKana/PingMe-SpringBoot)
+*Java, Spring Boot, Kafka, Redis, PostgreSQL, WebSockets, Docker, AWS, Next.js*
+- Architected a cloud-native distributed application supporting 800 concurrent users.
+- Optimized PostgreSQL access eliminating N+1 queries and reducing deep-scroll retrieval complexity from O(N) to O(1).
+- Secured APIs with OAuth 2.0 & JWT, and automated deployments with CI/CD.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### 2. [Privacy-Preserving Face Forgery Detection](https://github.com/HakshayReddyKana/SDP)
+*Python, PyTorch, Vision Transformers, Federated Learning, Flower Framework*
+- Developed a privacy-preserving federated learning framework across distributed nodes.
+- Designed a dual-stream Vision Transformer architecture, achieving **95.12% accuracy** on FaceForensics++.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### 🏆 Journey & Milestones
+
+- **July 2026:** Incoming full-time Software Engineer @ **PayPal**
+- **2026:** 1st Rank & Best Outgoing Student (Chancellor's Gold Medalist)
+- **Summer 2025:** Software Engineer Intern @ **PayPal** *(Migrated batch jobs to Spring Boot microservices, developed internal platforms)*
+- **2024 - 2025:** Nova Code Challenge - Runner Up *(Won ₹80,000 cash prize)* & LeetCode Knight *(Top 4.4%)*
+- **2024:** Top CGPA Award - 2nd Rank
+- **2023:** Top CGPA Award - 9th Rank
+
+---
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HakshayReddyKana&show_icons=true&theme=radium&hide_border=true&bg_color=0D1117" alt="Hakshay's GitHub Stats" />
+</p>
