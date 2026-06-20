@@ -36,7 +36,8 @@ I architect scalable microservices, build real-time distributed systems, and des
 
 ### 🚀 Featured Projects
 
-#### 1. [PingMe: Scalable Real-Time Communication Platform](https://github.com/HakshayReddyKana/PingMe-SpringBoot)
+#### 1. PingMe: Scalable Real-Time Communication Platform
+[GitHub Repository](https://github.com/HakshayReddyKana/PingMe-SpringBoot) | [Live Demo](https://pingme.hakshay.engineer/) <br>
 *Java, Spring Boot, Kafka, Redis, PostgreSQL, WebSockets, Docker, AWS, Next.js*
 - Architected a cloud-native distributed application supporting 800 concurrent users.
 - Optimized PostgreSQL access eliminating N+1 queries and reducing deep-scroll retrieval complexity from O(N) to O(1).
@@ -58,7 +59,7 @@ I architect scalable microservices, build real-time distributed systems, and des
 - **2024:** Top CGPA Award - 2nd Rank
 - **2023:** Top CGPA Award - 9th Rank
 
----
+<!-- ---
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HakshayReddyKana&show_icons=true&theme=radium&hide_border=true&bg_color=0D1117" alt="Hakshay's GitHub Stats" />
-</p>
+  <img src="https://github-readme-stats.vercel.app/api?username=HakshayReddyKana&show_icons=true&hide_border=true&bg_color=0D1117" alt="Hakshay's GitHub Stats" />
+</p> -->
