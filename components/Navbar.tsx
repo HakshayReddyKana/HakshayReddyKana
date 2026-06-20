@@ -34,8 +34,8 @@ export default function Navbar() {
         }`}
       >
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <a href="#" className="text-2xl font-bold font-mono tracking-tight text-white hover:text-purple-400 transition-colors">
-            <span className="text-purple-500">@</span>HakshayReddy
+          <a href="#" className="text-2xl font-bold font-mono tracking-tight text-white hover:text-[#E76F00] transition-colors">
+            <span className="text-[#E76F00]">@</span>HakshayReddy
           </a>
 
           {/* Desktop Nav */}
