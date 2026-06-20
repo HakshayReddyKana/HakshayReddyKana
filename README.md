@@ -54,8 +54,8 @@ I architect scalable microservices, build real-time distributed systems, and des
 
 - **July 2026:** Incoming full-time Software Engineer @ **PayPal**
 - **2026:** 1st Rank & Best Outgoing Student (Chancellor's Gold Medalist)
+- **2026:** Nova Code Challenge - Runner Up *(Won ₹80,000 cash prize)* & LeetCode Knight *(Top 4.4%)*
 - **Summer 2025:** Software Engineer Intern @ **PayPal** *(Migrated batch jobs to Spring Boot microservices, developed internal platforms)*
-- **2024 - 2025:** Nova Code Challenge - Runner Up *(Won ₹80,000 cash prize)* & LeetCode Knight *(Top 4.4%)*
 - **2024:** Top CGPA Award - 2nd Rank
 - **2023:** Top CGPA Award - 9th Rank
 
