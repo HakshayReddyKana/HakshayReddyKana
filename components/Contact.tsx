@@ -21,9 +21,9 @@ export default function Contact() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-16">
-            <a href="mailto:hakshaykana@gmail.com" className="flex items-center gap-3 px-6 py-3 glass rounded-full text-slate-300 hover:text-white hover:bg-slate-800 transition-all">
+            <a href="mailto:kanahakshayreddy@gmail.com" className="flex items-center gap-3 px-6 py-3 glass rounded-full text-slate-300 hover:text-white hover:bg-slate-800 transition-all">
               <Mail className="w-5 h-5 text-cyan-400" />
-              <span>hakshaykana@gmail.com</span>
+              <span>kanahakshayreddy@gmail.com</span>
             </a>
             <a href="tel:+919398237819" className="flex items-center gap-3 px-6 py-3 glass rounded-full text-slate-300 hover:text-white hover:bg-slate-800 transition-all">
               <Phone className="w-5 h-5 text-purple-400" />
