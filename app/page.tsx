@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Achievements from "@/components/Achievements";
 import Skills from "@/components/Skills";
+import LeetCode from "@/components/LeetCode";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Skills />
+      <LeetCode />
       <Projects />
       <Achievements />
       <Contact />

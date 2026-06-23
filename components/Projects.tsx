@@ -6,9 +6,13 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "PingMe: Scalable Real-Time Communication Platform",
-    tech: ["Java", "Spring Boot", "Kafka", "Redis", "PostgreSQL", "WebSockets", "Docker", "AWS", "Next.js"],
-    description: "Architected a scalable real-time messaging platform using microservices. Designed an event-driven pipeline with Kafka and leveraged Redis caching to reduce retrieval latency by 70%. Implemented JWT, RBAC, typing indicators, and read receipts.",
+    title: "PingMe: Real-Time Distributed Communication Platform",
+    tech: [
+      "AWS (EC2, ALB, ASG, ElastiCache, Secrets Manager, ACM)",
+      "Docker", "GitHub Actions", "Java", "Spring Boot", 
+      "Spring WebSockets", "PostgreSQL", "Redis"
+    ],
+    description: "Architected a highly available, distributed backend using AWS ALB and Auto Scaling Groups. Solved stateful WebSocket scaling using Redis Pub/Sub as a centralized message broker. Engineered a zero-downtime CI/CD pipeline and automated infrastructure provisioning.",
     github: "https://github.com/HakshayReddyKana/PingMe-SpringBoot",
     demo: "https://pingme.hakshay.engineer/"
   },
@@ -46,11 +50,12 @@ export default function Projects() {
               className="glass-card rounded-2xl p-8 flex flex-col h-full group hover:-translate-y-2 transition-transform duration-300"
             >
               <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-cyan-400 transition-colors">{project.title}</h3>
+              
               <p className="text-slate-300 mb-6 flex-grow leading-relaxed">
                 {project.description}
               </p>
               
-              <div className="flex flex-wrap gap-2 mb-8">
+              <div className="flex flex-wrap gap-2 mb-8 mt-auto">
                 {project.tech.map((tech, i) => (
                   <span key={i} className="px-3 py-1 rounded-full bg-slate-800 text-xs font-medium text-slate-300 border border-slate-700">
                     {tech}

@@ -36,12 +36,16 @@ I architect scalable microservices, build real-time distributed systems, and des
 
 ### 🚀 Featured Projects
 
-#### 1. PingMe: Scalable Real-Time Communication Platform
+#### 1. PingMe: Real-Time Distributed Communication Platform
 [GitHub Repository](https://github.com/HakshayReddyKana/PingMe-SpringBoot) | [Live Demo](https://pingme.hakshay.engineer/) <br>
-*Java, Spring Boot, Kafka, Redis, PostgreSQL, WebSockets, Docker, AWS, Next.js*
-- Architected a cloud-native distributed application supporting 800 concurrent users.
-- Optimized PostgreSQL access eliminating N+1 queries and reducing deep-scroll retrieval complexity from O(N) to O(1).
-- Secured APIs with OAuth 2.0 & JWT, and automated deployments with CI/CD.
+*AWS (EC2, ALB, ASG, ECR, RDS, ElastiCache, Secrets Manager, ACM), Docker, GitHub Actions, Java, Spring Boot, Spring WebSockets, STOMP, PostgreSQL, Redis*
+- **Horizontally Scalable Distributed Backend:** Architected a highly available backend using an AWS Application Load Balancer (ALB) and Auto Scaling Group (ASG) to dynamically respond to CPU stress.
+- **Distributed WebSocket Pub/Sub via Redis:** Integrated AWS ElastiCache as a centralized message broker, allowing users on different physical EC2 servers to instantly exchange real-time STOMP messages.
+- **Zero-Downtime CI/CD Pipeline:** Engineered a GitHub Actions pipeline building, containerizing, and pushing to AWS ECR, triggering an ASG 'Instance Refresh' for 100% zero-downtime updates.
+- **Automated Infrastructure Provisioning (IaC):** Designed a custom AWS EC2 Launch Template with cloud-init User Data scripts to fully automate server bootstrapping.
+- **Enterprise-Grade Secrets Management:** Eliminated hardcoded credentials by integrating AWS Secrets Manager to dynamically fetch production credentials at boot.
+- **Automated Self-Healing Architecture:** Configured ASG and ALB for continuous health checks via Spring Boot actuator, automatically replacing dead instances.
+- **Strict Network Security & SSL/TLS:** Enforced end-to-end HTTPS/WSS encryption via AWS ACM and configured strict internal AWS Security Groups.
 
 #### 2. [Privacy-Preserving Face Forgery Detection](https://github.com/HakshayReddyKana/SDP)
 *Python, PyTorch, Vision Transformers, Federated Learning, Flower Framework*
@@ -55,7 +59,7 @@ I architect scalable microservices, build real-time distributed systems, and des
 - **July 2026:** Incoming full-time Software Engineer @ **PayPal**
 - **2026:** 1st Rank & Best Outgoing Student (Chancellor's Gold Medalist)
 - **2026:** Nova Code Challenge - Runner Up *(Won ₹80,000 cash prize)* & LeetCode Knight *(Top 4.4%)*
-- **Summer 2025:** Software Engineer Intern @ **PayPal** *(Migrated batch jobs to Spring Boot microservices, developed internal platforms)*
+- **2025:** Software Engineer Intern @ **PayPal** *(Migrated batch jobs to Spring Boot microservices, developed internal platforms)*
 - **2024:** Top CGPA Award - 2nd Rank
 - **2023:** Top CGPA Award - 9th Rank
 

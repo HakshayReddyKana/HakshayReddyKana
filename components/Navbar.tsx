@@ -18,6 +18,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Skills", href: "#skills" },
+    { name: "LeetCode", href: "#leetcode" },
     { name: "Projects", href: "#projects" },
     { name: "Journey", href: "#achievements" },
     { name: "Contact", href: "#contact" },

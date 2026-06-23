@@ -18,18 +18,20 @@ const achievements = [
     image: "/imgs/2nd_rank_2024.jpg",
   },
   {
-    year: "Summer 2025",
+    year: "2025",
     title: "Software Engineer Intern @ PayPal",
     description: "Migrated database-driven batch jobs to Spring Boot microservices, developed internal Next.js platforms, and integrated AI assistant features.",
     image: "/imgs/PayPal_intern_2025.jpeg",
   },
   {
-    year: "2024 - 2025",
+    year: "2026",
     title: "Nova Code Challenge - Runner Up",
     description: "Secured Runner Up position and won an ₹80,000 cash prize in the CP challenge among 500+ students.",
     image: "/imgs/9am_2nd_rank_80000CashPrize.jpg",
     link: "https://9am.careers/code-challenges/9amNCCFRESH2026/",
+    linkText: "View Challenge",
   },
+
   {
     year: "2026",
     title: "Chancellor's Gold Medalist & Best Outgoing Student",
@@ -119,7 +121,7 @@ export default function Achievements() {
                         
                         {item.link && (
                           <a href={item.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-purple-400 text-sm font-medium hover:text-purple-300 transition-colors mb-6">
-                            View Challenge <ExternalLink className="w-4 h-4" />
+                            {item.linkText || "View Challenge"} <ExternalLink className="w-4 h-4" />
                           </a>
                         )}
 
